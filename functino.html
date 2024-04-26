@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="area">Hello</h2>
+    <!-- <h3 id="averageGrade">Hello</h3> -->
+    <button onclick="callMe()">Click Me</button>
+    <script>
+        // function
+        // function sum(num1,num2){
+        //     console.log("Sum="+(num1+num2));
+        // }
+        // sum(5,5);
+       
+        // function minus(num3,num4){
+        //     console.log("Minus="+ (num3-num4));
+        // }
+        // minus(5,5);
+        // function multi(num5,num6){
+        //     console.log("Multi="+(num5*num6));
+        // }
+        // multi(5,5);
+        // function devi(num7,num8){
+        //     console.log("Devi="+(num7/num8));
+        // }
+        // devi(5,5);
+
+
+
+        // return
+        // const total = function(a,b){
+        //     return a*b;
+        // }
+        // let result = total(9,8);
+        // console.log(result);
+
+
+
+        // return2
+        // function sum(num1,num2){
+        //     console.log(num1+num2);
+        // }
+        // sum(2,2);
+
+
+
+        // Arrow function
+        // const subtract=(a,b) => a-b;
+        // let result=subtract(10,5);
+        // console.log(result);
+
+
+
+        //     let lenght=prompt("Please enter lenght");
+        //     let width=prompt("Please enter width");
+        // function rtg(lenght,width){
+        //    rtg=lenght*width;
+        //     if(lenght<=0 && width>0){
+        //     let massage_2 ="Your lenght is negative";
+        //     document.getElementById("Oo").innerHTML=massage_2;
+        //     for(i=0;i<100;i++){
+        //     let lenght=prompt("Please enter lenght");
+        //     }
+        //     }
+           
+        //     else if(lenght>0 && width<=0){
+        //         let massage_3 ="Your width is negative";
+        //         let width=prompt("Please enter width");
+        //     document.getElementById("Oo").innerHTML=massage_3;
+        //     }
+        //     else {
+        //         document.getElementById("Oo").innerHTML=(rtg);
+        //     }
+           
+        // }
+        
+
+
+//     function calculateLandArea() {
+
+//   while(isNaN(width) || isNaN(length) || width < 0 || length < 0) {
+
+//     if (isNaN(width) || width < 0) {
+//       width = prompt("Invalid width. Please enter a positive number:");
+//     }
+//     if (isNaN(length) || length < 0) {
+//       length = prompt("Invalid length. Please enter a positive number:");
+//     }
+//     }
+
+//   const area = width * length;
+//   document.write("The land area is" +area);
+// }
+
+// calculateLandArea();
+
+
+
+let area=width*length;
+document.write("the land area is $(area) square unti");
+
+
+function callMe(){
+    let width = prompt("Please input width");
+    let lenght= prompt("Please input lenght");
+    let result = calculateLandArea(width,lenght);
+    document.getElementById("area").innerHTML = "The area is "+result;
+}
+
+
+//             if (lenght*width > 0) {6
+//     console.log("Your input number is Positive ");
+//   } else if (lenght*width<0 ) {
+//     console.log("Your input number is negative");
+//   }  else {
+//     console.log("Null");
+//   }
+//         }
+//         rtg(0,250);
+
+        
+
+    </script>
+</body>
+</html>
